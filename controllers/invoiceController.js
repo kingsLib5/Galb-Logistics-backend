@@ -1,5 +1,5 @@
 // controllers/invoiceController.js
-const Invoice = require('../models/invoice');
+const Invoice = require('../models/Invoice');
 
 // Create a new invoice
 exports.createInvoice = async (req, res) => {
