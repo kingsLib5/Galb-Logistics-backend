@@ -17,7 +17,7 @@ async function seedOwner() {
       return;
     }
 
-    const owner = new User({
+    const owner  = new User({
       name: OWNER_NAME,
       email: OWNER_EMAIL,
       password: OWNER_PASSWORD,
